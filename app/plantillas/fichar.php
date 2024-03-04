@@ -11,6 +11,9 @@
 <?php endif ;?>
 </form>
 
+
+
+
  <?php $contenido = ob_get_clean() ?>
 
  <?php include 'base.php' ?>
