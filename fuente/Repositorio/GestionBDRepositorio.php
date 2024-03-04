@@ -48,7 +48,7 @@ class GestionBdRepositorio
         }
     }
 
-    public function fichar($idEmpleado, $tipo)
+    public function fichar(string $idEmpleado, int $tipo)
     {
         if ($tipo == 1) {
             $sqlUpdateEmple = 'UPDATE Empleado SET Activo = 1 WHERE ID = :idEmple';
@@ -80,8 +80,12 @@ class GestionBdRepositorio
             $con->rollBack(); // Es buena práctica hacer rollback también aquí en caso de excepción.
             throw $ex;
         }finally{
+           if(isset($snt)){
             unset($snt);
-            $con= null;
+        } 
+        if(isset($con)){
+            unset($con);
+        } 
         }
     }
 }
