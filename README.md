@@ -42,8 +42,11 @@ El archivo Empleados.sql es el script que crea la Base de Datos en la que podrá
 
 ## Capturas / Demo
 A continuación, se muestran algunas capturas de pantalla de la aplicación:
+-Vista general inicial
 ![Vista general inicial](web/imagenes/screen1.PNG)
+-Pantalla de fichaje
 ![Pantalla de fichaje](web/imagenes/screen1.PNG)
+-Actualización y visualización de trabajadores en activo
 ![Actualización y visualización de trabajadores en activo](web/imagenes/screen3.PNG)
 
 ## Contribuciones y Uso
