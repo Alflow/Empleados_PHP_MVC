@@ -18,7 +18,7 @@ class GestionBdRepositorio
             $arrayFinalEmpleados = [];
 
             foreach ($arrayEmpleados as $indice => $detalles) {
-                $arrayFinalEmpleados[$detalles['ID']] = ['ID' => $detalles['ID'], 'Apellido' => $detalles['Apellido'], 'Nombre' => $detalles['Nombre'], 'Departamento' => $detalles['Departamento'], 'Activo' => $detalles['Activo']];
+                $arrayFinalEmpleados[$detalles['ID']] = ['ID' => $detalles['ID'], 'Apellido' => $detalles['Apellido'], 'Nombre' => $detalles['Nombre'], 'correo' => $detalles['correo'], 'Departamento' => $detalles['Departamento'], 'Activo' => $detalles['Activo']];
             }
 
             return $arrayFinalEmpleados;

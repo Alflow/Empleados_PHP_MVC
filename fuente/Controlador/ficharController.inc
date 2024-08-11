@@ -14,9 +14,8 @@ class ficharController
       }catch(PDOException $ex){
           throw $ex;
       }
-
-
     }
+    
     if(isset($_POST['ficharSalida'])){
         try{
             (new GestionBdRepositorio())->fichar($_SESSION['usuario']['ID'], 0);
