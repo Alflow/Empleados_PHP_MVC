@@ -39,8 +39,14 @@ Este proyecto se ha creado y subido con fines educativos. La funcionalidad es de
 
 ## Instalación y Configuración
 El archivo Empleados.sql es el script que crea la Base de Datos en la que podrás introducir tus empleados ficticios para probar el proyecto..
-## Contribuciones y Uso
 
+## Capturas / Demo
+A continuación, se muestran algunas capturas de pantalla de la aplicación:
+![Vista general inicial](web/imagenes/screen1.PNG)
+![Pantalla de fichaje](web/imagenes/screen1.PNG)
+![Actualización y visualización de trabajadores en activo](web/imagenes/screen3.PNG)
+
+## Contribuciones y Uso
 Las contribuciones son bienvenidas bajo las directrices especificadas en la sección de contribuciones. El uso de este proyecto está destinado a ser un recurso educativo y como tal, se anima a los usuarios a experimentar y aprender de su estructura y código.
 
 ##Estilo
